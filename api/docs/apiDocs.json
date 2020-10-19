@@ -1,0 +1,52 @@
+{
+    "/": [
+        {
+            "GET": "api docs"
+        }
+    ],
+    "/posts": [
+        {
+            "GET": "get all posts"
+        }
+    ],
+    "/post/:postId": [
+        {
+            "GET": "get a post",
+            "POST": "send a post",
+            "PUT": "update a post",
+            "DELETE": "delete a post"
+        }
+    ],
+    "/signup": [
+        {
+            "POST": "sign up"
+        }
+    ],
+    "/signin": [
+        {
+            "POST": "sign in"
+        }
+    ],
+    "/signout": [
+        {
+            "GET": "sign out"
+        }
+    ],
+    "/users": [
+        {
+            "GET": "get all users"
+        }
+    ],
+    "/user/:userId": [
+        {
+            "GET": "get a user",
+            "PUT": "update a user",
+            "DELETE": "delete a user"
+        }
+    ],
+    "/posts/by/:userId": [
+        {
+            "GET": "get posts of user"
+        }
+    ]
+}

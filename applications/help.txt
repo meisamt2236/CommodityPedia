@@ -1,0 +1,6 @@
+flutter channel master
+flutter upgrade
+flutter config --enable-web
+
+flutter run -d chrome
+flutter build web

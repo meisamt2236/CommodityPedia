@@ -1,0 +1,47 @@
+name: commoditypedia
+description: A place for searching commodities.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.3
+  http: ^0.12.2
+  shared_preferences: ^0.5.10
+  flushbar: ^1.10.4
+  image_picker: ^0.6.7+7
+  image_picker_for_web: ^0.1.0+1
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
+  fonts:
+    - family: IRANSansMobile
+      fonts:
+        - asset: assets/fonts/IRANSansMobile.ttf
+    - family: IRANSansMobile_Bold
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Bold.ttf
+    - family: IRANSansMobile_Light
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Light.ttf
+    - family: IRANSansMobile_Medium
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_Medium.ttf
+    - family: IRANSansMobile_UltraLight
+      fonts:
+        - asset: assets/fonts/IRANSansMobile_UltraLight.ttf
